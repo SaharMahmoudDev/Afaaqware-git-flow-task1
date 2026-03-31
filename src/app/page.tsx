@@ -1,8 +1,9 @@
+import NavbarSection from "@/Organisms/NavbarSection";
 
 export default function page() {
   return (
-    <div>
-    
+    <div className='bg-white  min-h-screen flex flex-col '>
+    <NavbarSection/>
     </div>
   );
 }
